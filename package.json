@@ -6,6 +6,7 @@
   "dependencies": {
     "lit-element": "^3.0.2"
   },
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@mdx-js/react": "^1.6.22",
@@ -13,8 +14,11 @@
     "@storybook/addon-docs": "^6.5.0-alpha.4",
     "@storybook/addon-essentials": "^6.5.0-alpha.4",
     "@storybook/addon-links": "^6.5.0-alpha.4",
+    "@storybook/builder-webpack5": "^6.4.9",
+    "@storybook/manager-webpack5": "^6.4.9",
     "@storybook/web-components": "^6.5.0-alpha.4",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "webpack": "5"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
